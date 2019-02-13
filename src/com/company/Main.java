@@ -23,8 +23,11 @@ public class Main {
         words.add("stream");
         Random rand = new Random();
         //        System test
-         //   int randomIndex = (int) (Math.random() * words.size());
-            //System.out.println(words.get(randomIndex));
+        //System.out.println(words.get(randomIndex));
+
+        int randomIndex = (int) (Math.random() * words.size());
+        System.out.println("your word has "+words.size() +" letters");
+
 
 
     }
